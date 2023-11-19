@@ -1242,8 +1242,8 @@ static void AUDIO_OUT_Restart(USBD_HandleTypeDef* pdev)
       haudio->fb_normal = AUDIO_GetFeedbackValue(haudio->freq_real);
       break;
     case 48000:
-      // haudio->freq_real = 47940;
-      haudio->freq_real = 48000;
+      haudio->freq_real = 47940;
+      // haudio->freq_real = 48000;
       haudio->fb_normal = AUDIO_GetFeedbackValue(haudio->freq_real);
       break;
     case 96000:
