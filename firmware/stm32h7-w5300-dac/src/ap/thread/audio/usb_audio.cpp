@@ -101,7 +101,7 @@ static void drawFFT(fft_t *p_args)
   #endif
 
   int16_t  xi;
-  uint16_t fft_max_h = 100;
+  uint16_t fft_max_h = 200;
   uint16_t bar_max_h = 100;
   uint16_t fft_total_len = FFT_LEN/2;
   uint16_t fft_step;
